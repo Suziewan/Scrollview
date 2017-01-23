@@ -10,20 +10,20 @@
 
 @interface ViewController ()
 
+
+
+@property (strong, nonatomic) IBOutlet UIView *mainView;
+
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
+-(void)viewDidAppear:(BOOL)animated{
+    
+        CGRect bounds = _mainView.bounds;
+    bounds.origin = CGPointMake(0, 100);
+    _mainView.bounds = bounds;
+    
+         }
 
 @end
