@@ -19,11 +19,15 @@
 @implementation ViewController
 
 -(void)viewDidAppear:(BOOL)animated{
+
     
-        CGRect bounds = _mainView.bounds;
+    CGRect bounds = _mainView.bounds;
     bounds.origin = CGPointMake(0, 100);
     _mainView.bounds = bounds;
     
-         }
+    
+  
+}
 
 @end
+//Refactor your code so that the boxes are added as subviews to MyScrollView and set the contentSize.

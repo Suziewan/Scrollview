@@ -84,11 +84,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="hhp-tc-XI2">
-                    <connections>
-                        <action selector="pannedView:" destination="Mkn-ep-8J8" id="b5v-r3-7FP"/>
-                    </connections>
-                </panGestureRecognizer>
             </objects>
         </scene>
     </scenes>

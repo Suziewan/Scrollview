@@ -10,6 +10,7 @@
 #import "MyScrollView.h"
 
 @interface ViewController : UIViewController
+
 @property (weak, nonatomic) IBOutlet UIView *redView;
 @property (weak, nonatomic) IBOutlet UIView *greenView;
 @property (weak, nonatomic) IBOutlet UIView *blueView;
